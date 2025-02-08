@@ -2,8 +2,11 @@
 @import url("https://fonts.cdnfonts.com/css/post-no-bills-jaffna");
 /* Raleway */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/post-no-bills-jaffna");
+
 /* Playfair Display  Font Family */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* Roboto */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -11,6 +14,25 @@
   border: 0;
   margin: 0;
   padding: 0;
+}
+
+header {
+  max-width: 1920px;
+  height: 840px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/photo/Rectangle.png);
+}
+header .conteiner img {
+  position: absolute;
+  top: 30px;
+  left: 405px;
+}
+
+header .conteiner .Ael {
+  position: absolute;
+  left: 974px;
+  top: 55px;
 }
 
 .footerWrapper {
