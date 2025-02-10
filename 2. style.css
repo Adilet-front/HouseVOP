@@ -14,6 +14,7 @@
   border: 0;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -25,16 +26,21 @@ header {
 }
 header .conteiner img {
   position: absolute;
-  top: 30px;
-  left: 405px;
+  top: 3%;
+  left: 21.1%;
 }
 
-header .conteiner .Ael {
+
+header .conteiner .Ael ul {
   display: flex;
   gap: 42px;
   position: absolute;
-  left: 974px;
+  left: 50.7%;
   top: 55px;
+}
+
+header .conteiner .Ael ul li{
+  list-style: none;
 }
 
 header .conteiner .Ael a {
@@ -182,13 +188,13 @@ body {
 
 #any-video{
   width: 719;
-height: 650;
-top: 2626px;
-left: 595px;
+  height: 650;
+  top: 2626px;
+  left: 595px;
 
 }
 
-.video
+/*.video*/
 
 
 
